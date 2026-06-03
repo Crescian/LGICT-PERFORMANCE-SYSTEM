@@ -1,0 +1,43 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: docker/php/Dockerfile
+        container_name: usermgmt_app
+        volumes:
+            - .:/var/www/html
+        expose:
+            - "9000"
+        networks:
+            - usermgmt
+        restart: unless-stopped
+
+    pgsql:
+        image: postgres:16.3
+        container_name: usermgmt_pgsql
+        environment:
+            POSTGRES_DB: lgict_core
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: leonio
+        volumes:
+            - usermgmt_pgdata:/var/lib/postgresql/data
+        networks:
+            - usermgmt
+        restart: unless-stopped
+
+    redis:
+        image: redis:latest
+        container_name: usermgmt_redis
+        command:
+            ["redis-server", "--appendonly", "yes", "--requirepass", "cmlinux"]
+        networks:
+            - usermgmt
+        restart: unless-stopped
+
+networks:
+    usermgmt:
+        driver: bridge
+        name: lgict-performance-system_usermgmt # ✅ must match nginx-proxy network name
+
+volumes:
+    usermgmt_pgdata:

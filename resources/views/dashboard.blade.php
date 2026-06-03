@@ -711,19 +711,9 @@
                                 <line x1="9" y1="9" x2="9" y2="15" />
                             </svg>
                         </div>
-                        <div class="svc-lbl">Ticketing System</div>
+                        <div class="svc-lbl">Support Request Module</div>
                     </div>
                 </a>
-
-                <div class="svc-item">
-                    <div class="svc-ib"><svg viewBox="0 0 24 24">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                            <polyline points="14 2 14 8 20 8" />
-                            <line x1="12" y1="18" x2="12" y2="12" />
-                            <line x1="9" y1="15" x2="15" y2="15" />
-                        </svg></div>
-                    <div class="svc-lbl">New Request</div>
-                </div>
 
                 <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
@@ -732,36 +722,58 @@
                             <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
                             <line x1="12" y1="22.08" x2="12" y2="12" />
                         </svg></div>
-                    <div class="svc-lbl">Inventory</div>
+                    <div class="svc-lbl">SnipeIT Inventory</div>
                 </div>
 
                 <div class="svc-item">
+                    <div class="svc-ib">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5z" />
+                            <path d="M20 21a8 8 0 0 0-16 0" />
+                            <path d="M18 8h4" />
+                            <path d="M20 6v4" />
+                        </svg>
+                    </div>
+                    <div class="svc-lbl">User & Permission Management</div>
+                </div>
+                
+                {{-- <div class="svc-item">
+                    <div class="svc-ib"><svg viewBox="0 0 24 24">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="12" y1="18" x2="12" y2="12" />
+                            <line x1="9" y1="15" x2="15" y2="15" />
+                        </svg></div>
+                    <div class="svc-lbl">New Request</div>
+                </div> --}}
+
+                {{-- <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
                             <rect x="2" y="3" width="20" height="14" rx="2" />
                             <line x1="8" y1="21" x2="16" y2="21" />
                             <line x1="12" y1="17" x2="12" y2="21" />
                         </svg></div>
                     <div class="svc-lbl">Personal Assets</div>
-                </div>
+                </div> --}}
 
-                <div class="svc-item">
+                {{-- <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
                             <line x1="18" y1="20" x2="18" y2="10" />
                             <line x1="12" y1="20" x2="12" y2="4" />
                             <line x1="6" y1="20" x2="6" y2="14" />
                         </svg></div>
                     <div class="svc-lbl">Reports</div>
-                </div>
+                </div> --}}
 
-                <div class="svc-item">
+                {{-- <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
                             <path
                                 d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0" />
                         </svg></div>
                     <div class="svc-lbl">Announce&shy;ments</div>
-                </div>
+                </div> --}}
 
-                <div class="svc-item">
+                {{-- <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                             <circle cx="9" cy="7" r="4" />
@@ -769,9 +781,9 @@
                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                         </svg></div>
                     <div class="svc-lbl">User Directory</div>
-                </div>
+                </div> --}}
 
-                <div class="svc-item">
+                {{-- <div class="svc-item">
                     <div class="svc-ib"><svg viewBox="0 0 24 24">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                             <circle cx="12" cy="7" r="4" />
@@ -779,7 +791,7 @@
                             <line x1="23" y1="8" x2="19" y2="12" />
                         </svg></div>
                     <div class="svc-lbl">My Profile</div>
-                </div>
+                </div> --}}
 
             </div>
         </div>

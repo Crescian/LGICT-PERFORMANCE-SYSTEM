@@ -35,7 +35,7 @@ class SSOController extends Controller
             abort(401, 'Missing SSO token');
         }
 
-        $response = Http::post('http://192.168.11.146:8000/api/verify-sso', [
+        $response = Http::post('http://usermgmt.development.com//api/verify-sso', [
             'sso_token' => $token
         ]);
 
