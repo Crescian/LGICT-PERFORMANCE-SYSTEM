@@ -110,7 +110,6 @@
             </div>
 
         </div>{{-- /.left-panel --}}
-
         {{-- ══════════════════════════════════════════
         RIGHT PANEL — Login Form
         ══════════════════════════════════════════ --}}
@@ -235,10 +234,21 @@
                         style="color:var(--nl);font-weight:700;">icthelpdesk@leoniogroup.com</a>
                 </p>
 
+                {{-- Return to Landing --}}
+                <div class="text-center mt-3">
+                    <a href="{{ url('/') }}" style="font-size:12.5px;font-weight:700;color:var(--tm);text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:color .2s;"
+                    onmouseover="this.style.color='var(--nl)'" onmouseout="this.style.color='var(--tm)'">
+                        <i class="bi bi-arrow-left"></i> Return to Home
+                    </a>
+                </div>
             </div>{{-- /.form-box --}}
 
             <div class="right-footer">
-                LGICT Centralized ICT System v1.0 &nbsp;·&nbsp; For authorized personnel only
+                <a href="{{ url('/') }}" style="color:var(--bd);text-decoration:none;font-weight:600;transition:color .2s;"
+                onmouseover="this.style.color='var(--tm)'" onmouseout="this.style.color='var(--bd)'">
+                    <i class="bi bi-arrow-left me-1"></i>Back to OneICT Portal
+                </a>
+                &nbsp;·&nbsp; Authorized personnel only
             </div>
 
         </div>{{-- /.right-panel --}}

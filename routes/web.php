@@ -9,7 +9,7 @@ use App\Http\Controllers\SSOController;
 | ROOT
 |--------------------------------------------------------------------------
 */
-Route::get('/', fn() => redirect()->route('login'));
+Route::get('/', fn() => view('landing'))->name('home');
 
 /*
 |--------------------------------------------------------------------------
