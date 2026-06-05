@@ -21,6 +21,8 @@ services:
             POSTGRES_PASSWORD: leonio
         volumes:
             - usermgmt_pgdata:/var/lib/postgresql/data
+        ports:
+            - "5437:5432" # ← ADD THIS (unique port per DB)
         networks:
             - usermgmt
         restart: unless-stopped

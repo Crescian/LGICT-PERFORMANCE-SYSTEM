@@ -1008,7 +1008,7 @@
                         <li><i class="bi bi-check-circle-fill"></i>SLA monitoring</li>
                         <li><i class="bi bi-check-circle-fill"></i>Technician assignment</li>
                     </ul>
-                    <a href="{{ route('login') }}" class="mc-link">Access Module <i class="bi bi-arrow-right"></i></a>
+                    <a href="https://lg-ticketing.leoniogroup.com/login" class="mc-link">Access Module <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
